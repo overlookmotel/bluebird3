@@ -1,0 +1,37 @@
+{
+  "name": "bluebird3",
+  "version": "0.0.0",
+  "description": "bluebird v3.x",
+  "main": "./lib/",
+  "author": {
+    "name": "Overlook Motel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overlookmotel/bluebird3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/overlookmotel/bluebird3/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "chai": "^3.5.0",
+    "jshint": "^2.9.1",
+    "istanbul": "^0.4.3",
+    "coveralls": "^2.11.9"
+  },
+  "keywords": [
+    "bluebird"
+  ],
+  "scripts": {
+    "test": "make test",
+    "cover": "make cover"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT"
+}

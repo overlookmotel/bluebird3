@@ -17,7 +17,8 @@ chai.config.includeStack = true;
 /* global describe, it */
 
 describe('Tests', function() {
-	it.skip('all', function() {
+	it('exports bluebird', function() {
 		expect(bluebird).to.be.ok;
+		expect(typeof bluebird.prototype.then).to.equal('function');
 	});
 });

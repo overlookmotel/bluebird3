@@ -12,6 +12,18 @@
 
 ## Usage
 
+Exports [bluebird](https://www.npmjs.com/package/bluebird) Promise library v3.x.
+
+Why on earth would you use this rather than bluebird itself? Well you probably wouldn't, and shouldn't.
+
+Only reason is along with [bluebird2](https://www.npmjs.com/package/bluebird2) if you need to load both versions v2.x and v3.x of bluebird simultaneously, for example for running tests on a module which should work with either version.
+
+```js
+var bluebird2 = require('bluebird2');
+var bluebird3 = require('bluebird3');
+// Now you have both. Whoopee!
+```
+
 ## Tests
 
 Use `npm test` to run the tests. Use `npm run cover` to check coverage.

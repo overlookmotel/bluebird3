@@ -37,6 +37,15 @@ var BluebirdX = Bluebird.clone();
 console.log(BluebirdX != Bluebird); // true
 ```
 
+### `Bluebird.version`
+
+The module adds `.version` property to the Bluebird constructor, containing the semver version of Bluebird.
+
+```js
+var Bluebird = require('bluebird3');
+console.log(Bluebird.version); // e.g. '3.3.5'
+```
+
 ## Tests
 
 Use `npm test` to run the tests. Use `npm run cover` to check coverage.

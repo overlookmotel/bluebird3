@@ -45,4 +45,23 @@ describe('Tests', function() {
 		expect(B3.resolve()).to.not.be.instanceof(Bluebird);
 		expect(B3.resolve()).to.not.be.instanceof(B2);
 	});
+
+	var VERSION_REGEX = /^3\.\d+\.\d+$/;
+
+	describe('version is semver version of Bluebird library', function() {
+		it('with Bluebird', function() {
+			expect(Bluebird.version).to.be.a('string');
+			expect(Bluebird.version).to.match(VERSION_REGEX);
+		});
+
+		it('with Bluebird clones', function() {
+			var B2 = Bluebird.clone(),
+				B3 = B2.clone();
+
+			expect(B2.version).to.be.a('string');
+			expect(B2.version).to.match(VERSION_REGEX);
+			expect(B3.version).to.be.a('string');
+			expect(B3.version).to.match(VERSION_REGEX);
+		});
+	});
 });

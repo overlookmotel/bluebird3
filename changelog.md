@@ -9,6 +9,6 @@
 * Update bluebird dependency to v3.3.5
 * `clone` method
 
-## Next
+## 1.1.1
 
 * Update changelog

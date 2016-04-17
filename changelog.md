@@ -4,6 +4,6 @@
 
 * Initial release
 
-## Next
+## 1.1.0
 
 * Update bluebird dependency to v3.3.5

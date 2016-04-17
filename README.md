@@ -19,9 +19,22 @@ Why on earth would you use this rather than bluebird itself? Well you probably w
 Only reason is along with [bluebird2](https://www.npmjs.com/package/bluebird2) if you need to load both versions v2.x and v3.x of bluebird simultaneously, for example for running tests on a module which should work with either version.
 
 ```js
-var bluebird2 = require('bluebird2');
-var bluebird3 = require('bluebird3');
+var Bluebird2 = require('bluebird2');
+var Bluebird3 = require('bluebird3');
 // Now you have both. Whoopee!
+```
+
+### `Bluebird.clone()`
+
+This module adds one method to the Bluebird constructor: `.clone()`
+
+`.clone()` returns a new independent instance of the Bluebird constructor.
+
+```js
+var Bluebird = require('bluebird3');
+var BluebirdX = Bluebird.clone();
+
+console.log(BluebirdX != Bluebird); // true
 ```
 
 ## Tests

@@ -16,3 +16,7 @@
 ## 1.2.0
 
 * `version` property
+
+## Next
+
+* Update `bluebird` to v3.4.0

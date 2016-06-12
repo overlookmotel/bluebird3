@@ -19,6 +19,7 @@
 
 ## Next
 
+* Return independent instance of bluebird
 * Update `bluebird` to v3.4.0
 * Update dev dependencies
 * Replace `Makefile` with npm scripts

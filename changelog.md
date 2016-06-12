@@ -20,3 +20,4 @@
 ## Next
 
 * Update `bluebird` to v3.4.0
+* Update dev dependencies

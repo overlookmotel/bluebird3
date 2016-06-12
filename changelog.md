@@ -17,7 +17,7 @@
 
 * `version` property
 
-## Next
+## 2.0.0
 
 * Return independent instance of bluebird
 * Update `bluebird` to v3.4.0

@@ -27,4 +27,5 @@
 
 ## Next
 
+* `.getNewLibraryCopy()` method (was `.clone()`)
 * Update `bluebird` to v3.4.1

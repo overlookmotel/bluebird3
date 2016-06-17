@@ -24,15 +24,15 @@ var Bluebird3 = require('bluebird3');
 // Now you have both. Whoopee!
 ```
 
-### `Bluebird.clone()`
+### `Bluebird.getNewLibraryCopy()`
 
-This module adds one method to the Bluebird constructor: `.clone()`
+This module adds one method to the Bluebird constructor if not present already: `.getNewLibraryCopy()`
 
-`.clone()` returns a new independent instance of the Bluebird constructor.
+`.getNewLibraryCopy()` returns a new independent instance of the Bluebird constructor.
 
 ```js
 var Bluebird = require('bluebird3');
-var BluebirdX = Bluebird.clone();
+var BluebirdX = Bluebird.getNewLibraryCopy();
 
 console.log(BluebirdX != Bluebird); // true
 ```

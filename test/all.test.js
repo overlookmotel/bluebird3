@@ -24,9 +24,9 @@ describe('Tests', function() {
 		expect(Bluebird.resolve()).to.be.instanceof(Bluebird);
 	});
 
-	it('clone returns separate instance of bluebird', function() {
-		var B2 = Bluebird.clone(),
-			B3 = B2.clone();
+	it('getNewLibraryCopy returns separate instance of bluebird', function() {
+		var B2 = Bluebird.getNewLibraryCopy(),
+			B3 = B2.getNewLibraryCopy();
 
 		expect(B2).to.be.ok;
 		expect(typeof B2.prototype.then).to.equal('function');
@@ -55,8 +55,8 @@ describe('Tests', function() {
 		});
 
 		it('with Bluebird clones', function() {
-			var B2 = Bluebird.clone(),
-				B3 = B2.clone();
+			var B2 = Bluebird.getNewLibraryCopy(),
+				B3 = B2.getNewLibraryCopy();
 
 			expect(B2.version).to.be.a('string');
 			expect(B2.version).to.match(VERSION_REGEX);

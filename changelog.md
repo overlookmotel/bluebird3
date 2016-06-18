@@ -24,3 +24,7 @@
 * Update dev dependencies
 * Replace `Makefile` with npm scripts
 * Travis tests against node v6
+
+## Next
+
+* Update `bluebird` to v3.4.1

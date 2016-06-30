@@ -29,3 +29,7 @@
 
 * `.getNewLibraryCopy()` method (was `.clone()`)
 * Update `bluebird` to v3.4.1
+
+## Next
+
+* Travis CI runs on all branches (to allow `greenkeeper` to trigger Travis)

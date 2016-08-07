@@ -36,3 +36,4 @@
 * Pin `bluebird` dependency to trigger a PR from `greenkeeper` whenever new version released
 * Travis CI runs on all branches (to allow `greenkeeper` to trigger Travis)
 * Travis CI does not run on tags
+* Update dev dependencies

@@ -38,3 +38,7 @@
 * Travis CI does not run on tags
 * Tidy npm scripts
 * Update dev dependencies
+
+## Next
+
+* Fix coveralls npm script

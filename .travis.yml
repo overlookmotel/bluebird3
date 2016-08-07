@@ -1,5 +1,5 @@
 script:
-  - "npm test"
+  - "npm run travis"
 
 language: node_js
 

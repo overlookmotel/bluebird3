@@ -32,5 +32,6 @@
 
 ## Next
 
+* Remove `.clone()` method
 * Travis CI runs on all branches (to allow `greenkeeper` to trigger Travis)
 * Travis CI does not run on tags

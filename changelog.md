@@ -39,6 +39,6 @@
 * Tidy npm scripts
 * Update dev dependencies
 
-## Next
+## 3.0.1
 
 * Fix coveralls npm script

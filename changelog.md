@@ -47,6 +47,6 @@
 
 * Update `bluebird` to v3.4.2
 
-## Next
+## 3.0.3
 
 * Update `bluebird` to v3.4.3

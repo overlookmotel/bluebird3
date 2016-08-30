@@ -43,6 +43,6 @@
 
 * Fix coveralls npm script
 
-## Next
+## 3.0.2
 
 * Update `bluebird` to v3.4.2

@@ -66,3 +66,4 @@
 ## Next
 
 * Update `bluebird` to v3.4.7
+* Update dev dependencies

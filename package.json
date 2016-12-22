@@ -17,11 +17,11 @@
     "bluebird": "3.4.7"
   },
   "devDependencies": {
-    "mocha": "^3.0.1",
+    "mocha": "^3.2.0",
     "chai": "^3.5.0",
-    "jshint": "^2.9.2",
-    "istanbul": "^0.4.4",
-    "coveralls": "^2.11.12"
+    "jshint": "^2.9.4",
+    "istanbul": "^0.4.5",
+    "coveralls": "^2.11.15"
   },
   "keywords": [
     "bluebird"

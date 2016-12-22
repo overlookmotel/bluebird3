@@ -67,3 +67,4 @@
 
 * Update `bluebird` to v3.4.7
 * Update dev dependencies
+* Travis CI test against node v7

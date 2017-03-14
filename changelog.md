@@ -69,6 +69,6 @@
 * Update dev dependencies
 * Travis CI test against node v7
 
-## Next
+## 3.1.0
 
 * Update `bluebird` to v3.5.0

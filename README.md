@@ -1,5 +1,7 @@
 # bluebird3.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/bluebird3.svg)](https://greenkeeper.io/)
+
 # bluebird v3.x
 
 ## Current status

@@ -72,3 +72,7 @@
 ## 3.1.0
 
 * Update `bluebird` to v3.5.0
+
+## Next
+
+* Update `bluebird` to v3.5.1

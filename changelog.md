@@ -79,3 +79,4 @@
 * Update dev dependencies
 * Fix: Remove `Makefile`
 * Fix: `.gitignore` correct case of `.DS_Store`
+* Travis run tests on Node versions 4, 6, 8, 9

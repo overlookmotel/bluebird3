@@ -77,3 +77,4 @@
 
 * Update `bluebird` to v3.5.1
 * Update dev dependencies
+* Fix: Remove `Makefile`

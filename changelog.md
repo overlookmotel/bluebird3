@@ -81,7 +81,7 @@
 * Fix: `.gitignore` correct case of `.DS_Store`
 * Travis run tests on Node versions 4, 6, 8, 9
 
-## Next
+## 3.1.2
 
 * Update `bluebird` to v3.5.2
 * Update dev dependencies

@@ -84,3 +84,4 @@
 ## Next
 
 * Update `bluebird` to v3.5.2
+* Update dev dependencies

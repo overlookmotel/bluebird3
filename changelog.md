@@ -86,3 +86,7 @@
 * Update `bluebird` to v3.5.2
 * Update dev dependencies
 * Travis run tests on Node versions 6, 8, 10
+
+## Next
+
+* Update `bluebird` to v3.5.4

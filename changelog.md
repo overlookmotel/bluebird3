@@ -87,6 +87,6 @@
 * Update dev dependencies
 * Travis run tests on Node versions 6, 8, 10
 
-## Next
+## 3.1.3
 
 * Update `bluebird` to v3.5.4
